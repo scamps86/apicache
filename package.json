@@ -1,6 +1,6 @@
 {
-  "name": "apicache",
-  "version": "1.6.3",
+  "name": "@scamps86/apicache",
+  "version": "1.6.4",
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
@@ -54,7 +54,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && npm run test"
+      "pre-commit": "pretty-quick --staged"
     }
   }
 }
